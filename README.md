@@ -3,7 +3,7 @@ Personal Portfolio, Tech Stack, Projects etc. :sunglasses:
 
 ## Screen
 
-![Website Screen](images/website_screen.jpg)
+![Website Screen](img/website_screen.jpg)
 
 ## License
 
