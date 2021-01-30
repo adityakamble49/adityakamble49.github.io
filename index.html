@@ -46,13 +46,13 @@
                 <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#education">Education</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -111,6 +111,42 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+        <div class="w-100">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">University of North Carolina at Charlotte, USA</h3>
+                    <div class="subheading mb-3">Master of Science in Computer Science</div>
+                    <div><em><strong>Relevant Coursework</strong></em> - Data Structures and Algorithms for Problem
+                        Solving, Machine Learning, Computer Networks, Software Development, and Implementation, Object
+                        Oriented and Multicore Programming
+                    </div>
+                    <br>
+                    <p>GPA: 4.00</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2019 - May 2021</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h3 class="mb-0">University of Pune, India</h3>
+                    <div class="subheading mb-3">Bachelor of Engineering</div>
+                    <p>GPA: 3.60</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">July 2012 - May 2016</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
         <div class="w-100">
             <h2 class="mb-5">Experience</h2>
@@ -119,14 +155,24 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer Intern</h3>
                     <div class="subheading mb-3">Glassdoor, Mill valley CA</div>
-                    <p>
-                        Reduced encryption key rotation process time by 75% by implementing Re-Encryption tool using
-                        Java
-                        <br>
-                        Integrated HashiCorp’s Vault for Key Value Read Write operation for Authentication and Security
-                        <br>
-                        Improved secret keys deployment time by 80% using Vault Java Driver script automation on Jenkins
-                    </p>
+                    <ul>
+                        <li>Reduced encryption key rotation process time by 75% by implementing Re-Encryption tool using
+                            Java.
+                        </li>
+                        <li>Integrated HashiCorp’s Vault for Key Value Read Write operation for Authentication and
+                            Security.
+                        </li>
+                        <li>Improved secret keys deployment time by 80% using Vault Java Driver script automation on
+                            Jenkins.
+                        </li>
+                        <li>Launched Secrets Service tools to improve Passwords and API keys security.</li>
+                        <li>Collaborated with cross-functional teams viz. Core, Analytics and Mobile, to gather core
+                            security requirements.
+                        </li>
+                        <li>Implemented Unit testing to check key encryption validation for different types of
+                            encryption methods
+                        </li>
+                    </ul>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">Jun 2020 - Aug 2020</span>
@@ -137,17 +183,20 @@
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer</h3>
                     <div class="subheading mb-3">C2CIT, India</div>
-                    <p>
-                        Automated and Optimized Data ingestion to DynamoDB by 80% by implementing Import Pipelines using
-                        Python with Pandas DataFrame and Numpy Integration
-                        <br>
-                        Developed financial auditing scripts as per required business logic in Python to automate manual
-                        auditing process to improve productivity of auditors by 90%
-                        <br>
-                        Improved data security more than 90% by developing Data Masker to mask sensitive data.
-                        <br>
-                        Implemented end-to-end Serverless architecture using AWS Amplify with Lambdas and API Gateway
-                    </p>
+                    <ul>
+                        <li>Automated and Optimized Data ingestion to DynamoDB by 80% by implementing Import Pipelines
+                            using Python with Pandas DataFrame and Numpy Integration
+                        </li>
+                        <li>Developed financial auditing scripts as per required business logic in Python to automate
+                            manual auditing process to improve productivity of auditors by 90%
+                        </li>
+                        <li>Improved data security more than 90% by developing Data Masker to mask sensitive data such
+                            as SSN & Names.
+                        </li>
+                        <li>Implemented Scalable end-to-end Serverless architecture using AWS Amplify with Lambdas and
+                            API Gateway
+                        </li>
+                    </ul>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">January 2019 - June 2019</span>
@@ -157,26 +206,27 @@
             <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="resume-content">
                     <h3 class="mb-0">Software Engineer</h3>
-                    <div class="subheading mb-3">Xoriant Solutions,
-                        <India></India>
-                    </div>
-                    <p>
-                        Reduced real time message time more than 80% by implementing chat sessions in Redis
-                        <br>
-                        Worked on RESTful API Integration with Java and Kotlin for Real Time Chat application on Android
-                        <br>
-                        Developed MVVM Based Reactive chat screen to handle messages using SQLite and Android Jetpack
-                        <br>
-                        Reduced size of Machine Learning Model by 95% by implementing compression tool using FlatBuffer
-                        <br>
-                        Ported and Integrated Caffe Library in Android application using Native C++ with Java and Kotlin
-                        using JNI
-                        <br>
-                        Designed and Developed Android Bluetooth Low Energy (BLE) programming to execute custom commands
-                        on Health care devices to retrieve measured information
-                        <br>
-                        Optimized BLE operations to reduce device search time by 85% using custom UUID filters
-                    </p>
+                    <div class="subheading mb-3">Xoriant Solutions Pvt. Ltd. India</div>
+                    <ul>
+                        <li>Worked on RESTful API Integration with Java and Kotlin for Real Time Chat application on
+                            Android.
+                        </li>
+                        <li>Developed MVVM Based Reactive chat screen to handle messages using SQLite and Android
+                            Jetpack and RxJava
+                        </li>
+                        <li>Optimized size of Machine Learning Model by 95% by implementing compression tool using
+                            FlatBuffer and ProtoBuffers
+                        </li>
+                        <li>Ported and Integrated x86 Caffe Library in Android ARM application using Native C++ with
+                            Java using JNI.
+                        </li>
+                        <li>Designed and Developed Android Bluetooth Low Energy (BLE) programming to execute custom
+                            commands on Health care devices to retrieve measured information.
+                        </li>
+                        <li>Reduced real time message time more than 80% by implementing chat sessions in Redis in
+                            backend
+                        </li>
+                    </ul>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">October 2016 - December 2018</span>
@@ -289,41 +339,6 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-        <div class="w-100">
-            <h2 class="mb-5">Education</h2>
-
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="resume-content">
-                    <h3 class="mb-0">University of North Carolina at Charlotte, USA</h3>
-                    <div class="subheading mb-3">Master of Science</div>
-                    <div><strong>Computer Science</strong> - Software Engineering and Data Science</div>
-                    <div><em><strong>Relevant Coursework</strong></em> - Algorithms & Data Structures, Machine Learning,
-                        Big Data Analytics
-                    </div>
-                    <p>GPA: 4.00</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2019 - May 2021</span>
-                </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h3 class="mb-0">University of Pune, India</h3>
-                    <div class="subheading mb-3">Bachelor of Engineering</div>
-                    <p>GPA: 3.60</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">July 2012 - May 2016</span>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div class="w-100">
             <h2 class="mb-5">Skills</h2>
@@ -353,7 +368,7 @@
                 <a href="http://adityakamble49.com">
                     adityakamble49.com
                 </a>
-                &copy; 2020 All Rights Reserved
+                &copy; 2021 All Rights Reserved
             </p>
         </div>
     </footer>
